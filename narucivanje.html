@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narudžbina</title>
+    <link rel="stylesheet" type="text/css" href="stilovi/narucivanje.css" />
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="js/narucivanje.js"></script>
+    <div class="meni">
+        <a href="index.html" class="link"><b>Почетна страна</b></a>
+        <a href="obican.html" class="link"><b>Класичан хумус</b></a>
+        <a href="ljuti.html" class="link"><b>Љути хумус</b></a>
+        <a href="narucivanje.html" class="link"><b>Наручите хумус!</b></a>
+    </div>
+    
+    <h1>Наручите најбољи хумус у граду</h1>
+    <div class="elementi">
+    <img src="slike/nar1.jpg" alt="nar1" class="slike"/>
+    <form class="podaci">
+        <div>
+            <p>Унесите ваше име и број телефона</p><br/>
+            <text>име: </text><input type="text" name="text1" class="ime" size="30"><br/>
+            <text>телефон: </text><input type="text" name="text1" class="tel" size="30">
+        </div><div>
+            <p> Изаберите базу вашег хумуса: </p>
+            <input type="radio" name="baza" value="leblebija" id="leb" class="radio"><text> Леблебија </text><br/>
+            <input type="radio" name="baza" value="leblebija i pasulj" id="lebpas" class="radio"><text> Леблебија и пасуљ </text><br/>
+        </div><div>
+            <p> Изаберите додатке: </p>
+            <input type="checkbox" name="dodaci" value="beli luk" id="bluk" class="check"><text> Бели лук </text><br/>
+            <input type="checkbox" name="dodaci" value="crni luk" id="cluk" class="check"><text> Црни лук </text><br/>
+            <input type="checkbox" name="dodaci" value="cili" id="cili" class="check"><text> Чили </text><br/>
+            <input type="checkbox" name="dodaci" value="sitake" id="sitake" class="check"><text> Шитаке </text><br/>
+        </div><div>
+            <p> Изаберите уље: </p>
+            <select name="ulja" class="select">
+                <option value="maslinovo"> Маслиново уље </option>
+                <option value="kokosovo"> Кокосово уље </option>
+                <option value="avokadovo"> Авокадово уље </option>
+            </select>
+        </div><div>
+            <p> Додатни захтеви: </p>
+            <textarea name="polje" rows="5" cols="40" wrap="soft" id="polje"> Захтеви </textarea><br/>
+        </div>
+        <input type="submit" class="submit" value="Пошаљи наруџбину">
+        <input type="reset" value="Обриши поља">
+    </form>
+    <img src="slike/nar2.jpeg" alt="nar2" class="slike"/>
+    </div>
+</body>
+</html>

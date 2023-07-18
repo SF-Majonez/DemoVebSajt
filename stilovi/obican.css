@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(221, 255, 180);
+}
+
+h1{
+    text-align: left;
+    margin: 1%;
+    font-family: Arial;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+}
+
+.glavna{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: repeat(auto-fill, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.kartica{
+    background-color: rgb(239, 255, 210);
+    margin: 10px;
+    text-align:justify ;
+    font-size: 20px;
+    padding: 15px;
+    border: 5px double #0c6c49 !important;
+    min-width: 300px;
+    
+}
+
+.meni{
+    background-color: #5b5b5b;
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.link{
+    color: rgb(210, 255, 206);
+    text-decoration: none;
+    margin: 0px 10px;
+    
+}

@@ -1,0 +1,57 @@
+.meni{
+    background-color: #5b5b5b;
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.link{
+    color: rgb(255, 219, 197);
+    text-decoration: none;
+    margin: 0px 10px;
+    
+}
+
+body{
+    background-color: rgb(255, 219, 197);
+}
+
+h1{
+    text-align: left;
+    margin: 1%;
+    font-family:Trebuchet MS;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+}
+
+.recept{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-evenly;
+    justify-content: center;
+}
+
+.kartica{
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    border-style: double;
+    border-left: 5px;
+    border-right: 5px;
+    max-width: 800px;
+    background-color: rgb(255, 203, 171);
+}
+
+.slika{
+    margin: 20px;
+    align-self: center;
+}
+
+h3{
+    font-family: Cambria;
+    font-size: 35px;
+}
